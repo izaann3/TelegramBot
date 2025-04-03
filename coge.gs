@@ -1,6 +1,6 @@
 // configuración
-var apiToken = "7946836742:AAFxeIR7wp5kFbWFbzM5hpVN2uyeE2ykekw";  // Tu token de Telegram
-var appUrl   = "https://script.google.com/macros/s/AKfycbyFBJYvbOJlyX4cIKRT6GTibbACInMn99PhaD4qItVrEoQncXVRZKCIAFOQJeA19_N3/exec";
+var apiToken = "Token del bot";
+var appUrl   = "Url del deploy";
 var apiUrl   = "https://api.telegram.org/bot"+apiToken;
 var command  = {
   "/start": "¡Bienvenido! Me presento, mi nombre es Marcos y te ayudaré durante todo tu proceso. Dime, ¿Qué necesitas?:\n\n🔧 /contacto - Solicitar ayuda de un asistente\n❓ /faq - Ver preguntas frecuentes\n📤 /exit - Terminar conversación",
@@ -49,7 +49,7 @@ function doPost(e){
 
 // Función para enviar el correo
 function sendEmail() {
-  var email = "ilozano@institutmvm.cat";
+  var email = "tu email";
   var subject = "Solicitud de contacto desde el bot de Telegram";
   var body = "Una persona ha solicitado ayuda a través del bot de Telegram. Por favor, contacte con el usuario lo antes posible.";
   
