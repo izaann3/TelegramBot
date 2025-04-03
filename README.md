@@ -32,6 +32,15 @@ This project uses Google Apps Script to create a Telegram bot that interacts wit
 5. **Deploy**:
    - Deploy the script as a web app and make sure it’s accessible.
 
-## License
+<details>
+<summary>
+  <samp>
+    <b>More Info</b>
+  </samp>
+</summary>
+  
+  ```python
+# Copyright (c) 2024 Izeta3 . All rights reserved.
+  ```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+</details>
